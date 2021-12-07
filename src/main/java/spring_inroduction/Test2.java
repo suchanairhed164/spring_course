@@ -8,7 +8,7 @@ public class Test2 {
                 new ClassPathXmlApplicationContext("applicationContext.xml");
         Pet pet = context.getBean("myPet", Pet.class);
         pet.say();
-
+        System.out.println("updt");
         context.close();
     }
 }

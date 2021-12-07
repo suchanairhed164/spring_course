@@ -13,7 +13,7 @@ public class Test3 {
 
         Person person = context.getBean("personBean", Person.class);
         person.callYourPet();
-
+        System.out.println("updt");
         context.close();
     }
 }
